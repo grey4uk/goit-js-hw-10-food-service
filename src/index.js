@@ -27,6 +27,7 @@ function checkPosOfThemeControl() {
   } else {
     bodyOfDocument.classList.add(Theme.DARK);
     localStorage.setItem('theme', Theme.DARK);
+    changeThemeBtn.checked = 'true';
   }
 }
 checkPosOfThemeControl();
