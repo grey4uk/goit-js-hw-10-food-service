@@ -28,8 +28,10 @@ function checkPosOfThemeControl() {
     bodyOfDocument.classList.add(Theme.DARK);
     localStorage.setItem('theme', Theme.DARK);
     changeThemeBtn.checked = 'true';
+
   }
 }
+console.dir(changeThemeBtn);
 checkPosOfThemeControl();
 console.log(localStorage);
 function controlOfTheme(e) {
